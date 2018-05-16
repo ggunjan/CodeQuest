@@ -1,4 +1,4 @@
-package src.coding.LinkedListStackQueues;
+package coding.LinkedListStackQueues;
 
 public class LinkedListCycleDetection {
 
