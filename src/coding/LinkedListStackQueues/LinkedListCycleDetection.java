@@ -25,6 +25,7 @@ public class LinkedListCycleDetection {
 		return false;
 	}
 
+	
 	// Remove the loop
 	static void removeLoop(LLNode slow, LLNode start) {
 
