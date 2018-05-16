@@ -4,8 +4,6 @@ package coding.LinkedListStackQueues;
 public class LinkedList {
 	LLNode head;
 	
-	
-	
 	void add_node_atHead (LLNode n) {
 		n.next = this.head;
 		this.head = n;
@@ -24,7 +22,6 @@ public class LinkedList {
 		return result;
 	}
 	
-
  static void printLL(LLNode temp) {
 	 
 	 if ( temp == null) return;
@@ -32,10 +29,8 @@ public class LinkedList {
 	 LLNode curr = temp;
 	 String result = " {";
 	 while ( curr != null ) {
-		 System.out.println("Helllo");
 		 result += curr.data + ", ";
 	 }
-	 System.out.println("printing current-> "+curr);
 	 result = result + " }";
 	 System.out.println(result);
  }
